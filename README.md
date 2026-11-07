@@ -39,7 +39,7 @@ decisions, validation evidence, and production considerations.
 ## Standard Interview Structure
 
 1. **Quick introduction — 5 minutes**
-   - Introductions and role context.
+   - Introductions.
 2. **Live development — 30 minutes**
    - Candidate creates a branch from the supplied baseline.
    - Candidate may use only Codex, Claude Code, or GLM as the agentic coding harnesses. No other tool is allowed.
