@@ -14,18 +14,19 @@ the production architecture.
 
 ## Timed Task
 
-During the 30-minute implementation window, create a small working vertical
-slice that:
+During the 30-minute implementation window, create the complete scoped solution
+that:
 
 1. provisions or defines the core Azure storage resources through
    infrastructure as code;
 2. protects the storage against anonymous access and accidental deletion;
-3. demonstrates how one synthetic laboratory dataset and its metadata would be
-   submitted with a SHA-256 integrity value; and
+3. submits one synthetic laboratory dataset and its metadata with a SHA-256
+   integrity value; and
 4. includes a repeatable validation command or automated test.
 
-Prioritize a coherent, demonstrable slice. Document anything intentionally left
-out rather than generating broad unfinished scaffolding.
+All implementation, tests, documentation, and task-specific prompts must be
+created during the timed session. The solution must satisfy every acceptance
+criterion below.
 
 ## Required Metadata
 

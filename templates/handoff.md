@@ -2,7 +2,7 @@
 
 ## Result
 
-Summarize the working vertical slice.
+Summarize the completed scoped solution.
 
 ## How to Run
 
@@ -18,10 +18,10 @@ List the minimum commands needed to validate or demonstrate the result.
 - Test, lint, deployment, or manual check:
 - Result:
 
-## Incomplete Work and Next Step
+## Production Considerations and Next Step
 
-- Known limitation:
-- Safest next increment:
+- Consideration outside the completed interview scope:
+- Safest production-hardening increment:
 
 ## AI Coding Agent
 

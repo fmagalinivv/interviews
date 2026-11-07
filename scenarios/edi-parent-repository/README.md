@@ -33,9 +33,10 @@ fixtures, for example:
 
 The concrete change request and expected fixture are revealed at the start of
 the timed session. The repository and general architecture are available for
-advance preparation.
+advance study only. Candidates may not prepare task-specific prompts, snippets,
+code, tests, documentation, or other solution content before the timer starts.
 
-Within 30 minutes, the candidate should:
+Within 30 minutes, the candidate must complete the selected change and:
 
 1. identify the relevant repository path and existing pattern;
 2. implement the smallest safe change;
@@ -69,6 +70,7 @@ Be ready to explain:
 
 ## Interviewer Setup Note
 
-Keep the hidden task small enough for one vertical slice. The exercise must not
-depend on undisclosed domain trivia. Supply the synthetic fixture, expected
-outcome, and one failing or missing test at the start of the timed session.
+Keep the hidden task small enough for a complete solution, including its
+regression test and handoff, within 30 minutes. The exercise must not depend on
+undisclosed domain trivia. Supply the synthetic fixture, expected outcome, and
+one failing or missing test at the start of the timed session.

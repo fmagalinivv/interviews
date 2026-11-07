@@ -2,8 +2,8 @@
 
 This repository contains practical, scenario-based technical interviews for
 vVARDIS engineering and architecture roles. Each scenario provides enough
-business and technical context for a candidate to prepare, then asks the
-candidate to deliver a small, working vertical slice during the interview.
+business and technical context for a candidate to study in advance, then asks
+the candidate to deliver the complete scoped solution during the interview.
 
 The interview evaluates how a candidate frames a problem, directs an AI coding
 agent, validates the result, and explains trade-offs. It is not a typing-speed
@@ -30,13 +30,14 @@ Initial scenarios:
 Candidates receive the assigned scenario before the interview and may:
 
 - read the scenario, repository documentation, and linked public material;
-- prepare notes, questions, prompts, and a proposed approach;
 - install and verify one of the permitted coding agents;
 - review the relevant Azure and language documentation.
 
-Candidates must not prepare a completed implementation in advance. The
-assessed implementation starts from the supplied baseline and is produced on
-the interview branch during the timed session.
+Advance preparation is study and tool setup only. Candidates must not create
+or save task-specific prompts, notes, snippets, code, tests, configuration,
+diagrams, documentation, templates, or other solution content beforehand.
+Every submitted artifact, and every task-specific prompt used to produce it,
+must be created during the 30-minute live-development window.
 
 ## Standard Interview Structure
 
@@ -47,8 +48,8 @@ the interview branch during the timed session.
 2. **Live development — 30 minutes**
    - Candidate creates a branch from the supplied baseline.
    - Candidate may use only Codex, Claude Code, or GLM as the coding agent.
-   - Candidate implements, runs checks, and adjusts the solution while sharing
-     their screen and reasoning.
+   - Candidate produces the complete scoped solution, runs all required checks,
+     and adjusts the result while sharing their screen and reasoning.
 3. **Walk-through — 10 minutes**
    - Demonstrate the result and available evidence.
    - Explain important decisions, limitations, and the next safe increment.
@@ -94,6 +95,7 @@ Candidates must:
 - correctness and maintainability of the implementation;
 - security and operational judgement;
 - validation through tests, tooling, or deployment evidence;
-- ability to explain trade-offs and unfinished work.
+- ability to explain trade-offs and production considerations outside the
+  completed interview scope.
 
 The amount of generated code is not a success measure.
