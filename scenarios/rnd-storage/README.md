@@ -12,6 +12,18 @@ vVARDIS wants a secure Azure-based foundation for controlled ingestion and
 long-term retention. This is an interview use case, not authorization to change
 the production architecture.
 
+## Architecture Context
+
+![R&D laboratory storage architecture context](architecture-context.png)
+
+The diagram provides context for the wider architecture and its integration
+boundaries. The interview implementation scope is limited to the Azure cloud
+infrastructure. The candidate does not provision or configure the Windows file
+server, Azure File Sync agent, NTFS or SMB shares, laboratory workstations,
+scanners, LAN, or on-premises connectivity. Required assumptions for signed-in
+user identity and local workstation data sharing must be documented in
+`SOLUTION.md`.
+
 ## Timed Task
 
 During the 30-minute implementation window, create the complete scoped solution
@@ -20,14 +32,11 @@ that:
 1. provisions or defines the core Azure storage resources through
    infrastructure as code;
 2. protects the storage against anonymous access and accidental deletion;
-3. authenticates the upload as the Windows user currently signed in to the
-   laboratory workstation;
-4. enables multiple laboratory workstations to share datasets over the local
-   laboratory network;
-5. submits one synthetic laboratory dataset and its metadata with a SHA-256
+3. configures identity-based access for the cloud upload path;
+4. submits one synthetic laboratory dataset and its metadata with a SHA-256
    integrity value; and
-6. includes a repeatable validation command or automated test; and
-7. documents the completed solution in `SOLUTION.md`.
+5. includes a repeatable validation command or automated test; and
+6. documents the completed solution in `SOLUTION.md`.
 
 All implementation, tests, documentation, and task-specific prompts must be
 created during the timed session. The solution must satisfy every acceptance
@@ -71,8 +80,8 @@ deployment and must not use production data or credentials.
 - Uploads from laboratory Windows workstations use the identity of the
   currently signed-in user. Shared upload accounts or credentials are not used.
 - Validation evidence identifies the user identity that performed the upload.
-- Multiple laboratory workstations can access shared datasets over the local
-  laboratory network.
+- The cloud design documents the integration assumptions required for multiple
+  laboratory workstations to share datasets over the local laboratory network.
 - Deletion protection and versioning or an equivalent recovery control are
   represented and explained.
 - A synthetic file can be associated with the required metadata and checksum.
