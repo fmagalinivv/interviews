@@ -20,10 +20,12 @@ that:
 1. provisions or defines the core Azure storage resources through
    infrastructure as code;
 2. protects the storage against anonymous access and accidental deletion;
-3. submits one synthetic laboratory dataset and its metadata with a SHA-256
+3. authenticates the upload as the Windows user currently signed in to the
+   laboratory workstation;
+4. submits one synthetic laboratory dataset and its metadata with a SHA-256
    integrity value; and
-4. includes a repeatable validation command or automated test; and
-5. documents the completed solution in `SOLUTION.md`.
+5. includes a repeatable validation command or automated test; and
+6. documents the completed solution in `SOLUTION.md`.
 
 All implementation, tests, documentation, and task-specific prompts must be
 created during the timed session. The solution must satisfy every acceptance
@@ -64,6 +66,9 @@ deployment and must not use production data or credentials.
 - Public or anonymous blob access is disabled.
 - The design uses identity-based access; shared account keys are not embedded
   in source or instructions.
+- Uploads from laboratory Windows workstations use the identity of the
+  currently signed-in user. Shared upload accounts or credentials are not used.
+- Validation evidence identifies the user identity that performed the upload.
 - Deletion protection and versioning or an equivalent recovery control are
   represented and explained.
 - A synthetic file can be associated with the required metadata and checksum.
