@@ -21,9 +21,6 @@ Scenarios:
 
 1. [R&D storage](scenarios/rnd-storage/README.md) — build a secure Azure
    foundation for high-volume laboratory data.
-2. [EDI parent repository](scenarios/edi-parent-repository/README.md) — make a
-   bounded change to an Azure-native EDI repository without breaking existing
-   transaction flows.
 
 ## Candidate Preparation
 
