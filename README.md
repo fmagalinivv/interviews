@@ -6,8 +6,7 @@ business and technical context for a candidate to study in advance, then asks
 the candidate to deliver the complete scoped solution during the interview.
 
 The interview evaluates how a candidate frames a problem, directs an AI coding
-agent, validates the result, and explains trade-offs. It is not a typing-speed
-exercise or a test of memorized syntax.
+agent, validates the result, and explains trade-offs.
 
 ## Repository Contents
 
