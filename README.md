@@ -32,7 +32,7 @@ diagrams, documentation, templates, or other solution content beforehand.
 Every submitted artifact, and every task-specific prompt used to produce it,
 must be created during the 30-minute live-development window.
 
-The submitted solution must include candidate-authored documentation covering
+The submitted solution must include coding-agent-authored documentation covering
 its architecture, assumptions, setup, deployment, execution, testing, security
 decisions, validation evidence, and production considerations.
 
