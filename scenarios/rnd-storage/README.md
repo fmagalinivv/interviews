@@ -22,10 +22,12 @@ that:
 2. protects the storage against anonymous access and accidental deletion;
 3. authenticates the upload as the Windows user currently signed in to the
    laboratory workstation;
-4. submits one synthetic laboratory dataset and its metadata with a SHA-256
+4. enables multiple laboratory workstations to share datasets over the local
+   laboratory network;
+5. submits one synthetic laboratory dataset and its metadata with a SHA-256
    integrity value; and
-5. includes a repeatable validation command or automated test; and
-6. documents the completed solution in `SOLUTION.md`.
+6. includes a repeatable validation command or automated test; and
+7. documents the completed solution in `SOLUTION.md`.
 
 All implementation, tests, documentation, and task-specific prompts must be
 created during the timed session. The solution must satisfy every acceptance
@@ -69,6 +71,8 @@ deployment and must not use production data or credentials.
 - Uploads from laboratory Windows workstations use the identity of the
   currently signed-in user. Shared upload accounts or credentials are not used.
 - Validation evidence identifies the user identity that performed the upload.
+- Multiple laboratory workstations can access shared datasets over the local
+  laboratory network.
 - Deletion protection and versioning or an equivalent recovery control are
   represented and explained.
 - A synthetic file can be associated with the required metadata and checksum.
