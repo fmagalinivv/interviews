@@ -14,8 +14,6 @@ exercise or a test of memorized syntax.
 | Path | Purpose |
 |---|---|
 | `scenarios/` | Candidate-visible use cases and acceptance criteria |
-| `templates/` | Reusable notes and handoff templates |
-| `CANDIDATE.md` | Candidate preparation, session, and delivery guide |
 
 Scenarios:
 
@@ -34,6 +32,10 @@ or save task-specific prompts, notes, snippets, code, tests, configuration,
 diagrams, documentation, templates, or other solution content beforehand.
 Every submitted artifact, and every task-specific prompt used to produce it,
 must be created during the 30-minute live-development window.
+
+The submitted solution must include candidate-authored documentation covering
+its architecture, assumptions, setup, deployment, execution, testing, security
+decisions, validation evidence, and production considerations.
 
 ## Standard Interview Structure
 

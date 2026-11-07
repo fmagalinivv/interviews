@@ -22,7 +22,8 @@ that:
 2. protects the storage against anonymous access and accidental deletion;
 3. submits one synthetic laboratory dataset and its metadata with a SHA-256
    integrity value; and
-4. includes a repeatable validation command or automated test.
+4. includes a repeatable validation command or automated test; and
+5. documents the completed solution in `SOLUTION.md`.
 
 All implementation, tests, documentation, and task-specific prompts must be
 created during the timed session. The solution must satisfy every acceptance
@@ -67,8 +68,10 @@ deployment and must not use production data or credentials.
   represented and explained.
 - A synthetic file can be associated with the required metadata and checksum.
 - At least one useful validation check runs locally or against the sandbox.
-- The handoff explains retention/immutability, networking, monitoring, restore,
-  and QMS considerations that remain outside the timed slice.
+- `SOLUTION.md` explains the architecture, assumptions, setup, deployment,
+  execution, testing, security decisions, and validation evidence.
+- `SOLUTION.md` explains retention/immutability, networking, monitoring,
+  restore, and QMS considerations that remain outside the timed slice.
 
 ## Discussion Prompts
 
