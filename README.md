@@ -15,8 +15,7 @@ exercise or a test of memorized syntax.
 |---|---|
 | `scenarios/` | Candidate-visible use cases and acceptance criteria |
 | `templates/` | Reusable notes and handoff templates |
-| `INTERVIEWER.md` | Standard interview procedure and evaluation guidance |
-| `AGENTS.md` | Rules for candidates and AI coding agents |
+| `CANDIDATE.md` | Candidate preparation, session, and delivery guide |
 
 Initial scenarios:
 
