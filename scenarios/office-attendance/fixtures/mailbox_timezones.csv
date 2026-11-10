@@ -1,0 +1,4 @@
+delivery_id,received_at,tenant_id,user_id,source_timezone
+mailbox-run-001,2026-11-02T12:05:00Z,tenant-demo,user-001,Europe/Zurich
+mailbox-run-001,2026-11-02T12:05:00Z,tenant-demo,user-002,Europe/Zurich
+mailbox-run-001,2026-11-02T12:05:00Z,tenant-demo,user-005,America/New_York
