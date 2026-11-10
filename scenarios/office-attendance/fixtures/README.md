@@ -1,10 +1,10 @@
 # Office Attendance Fixtures
 
-These fixtures are production-derived synthetic data for the interview
-scenario. They must contain no production names, email addresses, identifiers,
-IP addresses, network ranges, office names, coordinates or event timestamps.
+These fixtures are operationally derived synthetic data for the interview
+scenario. They must contain no source names, email addresses, identifiers, IP
+addresses, network ranges, office names, coordinates or event timestamps.
 
-The fixture set is generated from aggregate production characteristics and
+The fixture set is generated from aggregate operational characteristics and
 then reviewed before publication. Values that could identify a person,
 location, tenant, application or network are replaced with newly generated
 scenario values. IP addresses use documentation-only ranges and locations are

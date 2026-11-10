@@ -2,10 +2,10 @@
 
 ## Candidate Brief
 
-vVARDIS wants a governed data product for analysing patterns of office
-attendance. The available source information consists of Microsoft Entra
-directory users, sign-in activity, mailbox time zones, named network locations
-and office buildings.
+An international company wants a governed data product for analysing patterns
+of office attendance. The available source information consists of Microsoft
+Entra directory users, sign-in activity, mailbox time zones, named network
+locations and office buildings.
 
 The supplied fixture data is synthetic and was generated from anonymised
 production-level distributions. It contains no production identities,
