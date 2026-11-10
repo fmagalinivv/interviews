@@ -1,0 +1,9 @@
+delivery_id,received_at,tenant_id,user_id,display_name,user_principal_name,account_enabled,user_type,department,job_title,office_location,country,usage_location
+users-run-001,2026-11-02T12:00:00Z,tenant-demo,user-001,Person 001,person001@example.invalid,true,Member,Operations,Analyst,Alpine Campus,CH,CH
+users-run-001,2026-11-02T12:00:00Z,tenant-demo,user-002,Person 002,person002@example.invalid,true,Member,Engineering,Engineer,Lakeside Campus,CH,CH
+users-run-001,2026-11-02T12:00:00Z,tenant-demo,user-003,Person 003,person003@example.invalid,true,Member,Commercial,Specialist,,CH,CH
+users-run-001,2026-11-02T12:00:00Z,tenant-demo,user-004,Person 004,person004@example.invalid,true,Member,Operations,Coordinator,Shared Campus,CH,CH
+users-run-001,2026-11-02T12:00:00Z,tenant-demo,user-005,Person 005,person005@example.invalid,true,Member,Engineering,Engineer,,US,US
+users-run-001,2026-11-02T12:00:00Z,tenant-demo,user-006,Person 006,person006@example.invalid,true,Guest,External,Consultant,,GB,GB
+users-run-001,2026-11-02T12:00:00Z,tenant-demo,user-007,Person 007,person007@example.invalid,false,Member,Commercial,Manager,Alpine Campus,CH,CH
+users-run-001,2026-11-02T12:00:00Z,tenant-demo,user-008,,person008@example.invalid,true,Member,Operations,Analyst,Lakeside Campus,CH,CH

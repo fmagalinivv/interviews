@@ -1,0 +1,4 @@
+delivery_id,received_at,tenant_id,building_id,display_name,street,city,state,postal_code,country,latitude,longitude
+buildings-run-001,2026-11-02T12:15:00Z,tenant-demo,building-001,Alpine Campus,Example Street 1,Alpenstadt,Example Canton,1000,CH,46.0000,7.0000
+buildings-run-001,2026-11-02T12:15:00Z,tenant-demo,building-002,Lakeside Campus,Sample Avenue 2,Seestadt,Example Canton,2000,CH,47.0000,8.0000
+buildings-run-001,2026-11-02T12:15:00Z,tenant-demo,building-003,Shared Campus,Demonstration Road 3,Musterstadt,Example Canton,3000,CH,48.0000,9.0000

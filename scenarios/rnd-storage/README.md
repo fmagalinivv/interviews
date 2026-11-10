@@ -26,7 +26,7 @@ user identity and local workstation data sharing must be documented in
 
 ## Timed Task
 
-During the 30-minute implementation window, create the complete scoped solution
+During the 45-minute implementation window, create the complete scoped solution
 that:
 
 1. provisions or defines the core Azure storage resources through

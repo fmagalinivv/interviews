@@ -1,0 +1,31 @@
+delivery_id,received_at,tenant_id,event_id,user_id,event_timestamp_utc,is_interactive,login_success,ip_address,city,country,device_os,app_id,app_name,network_names
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-001,user-001,2026-10-24T07:05:00Z,true,true,192.0.2.4,Alpenstadt,CH,Windows 11,app-001,Work Portal,Alpine Campus
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-002,user-001,2026-10-24T07:11:00Z,false,true,192.0.2.4,Alpenstadt,CH,Windows 11,app-002,Token Broker,Alpine Campus
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-003,user-001,2026-10-24T08:02:00Z,false,true,203.0.113.25,Example City,CH,Windows 11,app-002,Token Broker,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-004,user-001,2026-10-24T08:12:00Z,false,true,203.0.113.25,Example City,CH,Windows 11,app-002,Token Broker,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-005,user-001,2026-10-24T09:04:00Z,true,false,203.0.113.25,Example City,CH,Windows 11,app-001,Work Portal,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-006,user-002,2026-10-24T07:20:00Z,true,true,198.51.100.4,Seestadt,CH,iOS,app-003,Mobile Suite,Lakeside Campus
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-007,user-002,2026-10-24T07:24:00Z,false,true,198.51.100.4,Seestadt,CH,iOS,app-002,Token Broker,Lakeside Campus
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-008,user-002,2026-10-24T10:15:00Z,false,true,198.51.100.28,Example City,CH,Windows 11,app-002,Token Broker,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-009,user-002,2026-10-24T10:18:00Z,false,false,198.51.100.28,Example City,CH,Windows 11,app-002,Token Broker,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-010,user-003,2026-10-24T08:30:00Z,true,true,203.0.113.40,Example City,CH,Windows 11,app-001,Work Portal,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-011,user-003,2026-10-24T08:34:00Z,false,true,203.0.113.40,Example City,CH,Windows 11,app-002,Token Broker,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-012,user-003,2026-10-24T09:10:00Z,false,true,203.0.113.40,Example City,CH,Windows 11,app-002,Token Broker,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-013,user-004,2026-10-24T07:45:00Z,true,true,192.0.2.10,Musterstadt,CH,Windows 11,app-001,Work Portal,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-014,user-004,2026-10-24T07:48:00Z,false,true,192.0.2.10,Musterstadt,CH,Windows 11,app-002,Token Broker,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-015,user-004,2026-10-24T11:20:00Z,false,true,203.0.113.45,Example City,CH,Windows 11,app-002,Token Broker,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-016,user-005,2026-11-01T05:30:00Z,true,true,198.51.100.30,Example City,US,macOS,app-001,Work Portal,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-017,user-005,2026-11-01T06:30:00Z,true,true,198.51.100.30,Example City,US,macOS,app-001,Work Portal,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-018,user-005,2026-11-01T06:36:00Z,false,true,198.51.100.30,Example City,US,macOS,app-002,Token Broker,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-019,user-005,2026-11-01T07:15:00Z,false,true,198.51.100.30,Example City,US,macOS,app-002,Token Broker,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-020,user-006,2026-10-25T09:05:00Z,true,true,,,GB,Android,app-003,Mobile Suite,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-021,user-006,2026-10-25T09:09:00Z,false,false,,,GB,Android,app-002,Token Broker,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-022,user-007,2026-10-26T07:10:00Z,true,true,192.0.2.5,Alpenstadt,CH,Windows 11,app-001,Work Portal,Alpine Campus
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-023,user-007,2026-10-26T07:14:00Z,false,true,192.0.2.5,Alpenstadt,CH,Windows 11,app-002,Token Broker,Alpine Campus
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-024,user-008,2026-10-26T08:00:00Z,true,true,203.0.113.80,Example City,CH,iOS,app-003,Mobile Suite,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-025,user-008,2026-10-26T08:05:00Z,false,true,203.0.113.80,Example City,CH,iOS,app-002,Token Broker,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-026,user-999,2026-10-26T09:00:00Z,true,true,203.0.113.90,Example City,CH,Windows 11,app-001,Work Portal,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-027,,2026-10-26T09:05:00Z,true,true,203.0.113.91,Example City,CH,Windows 11,app-001,Work Portal,
+signins-run-001,2026-11-02T13:00:00Z,tenant-demo,event-028,user-001,2026-10-26T10:00:00Z,false,true,203.0.113.92,Example City,CH,Windows 11,app-999,Experimental Client,
+signins-run-002,2026-11-03T13:00:00Z,tenant-demo,event-010,user-003,2026-10-24T08:30:00Z,true,true,203.0.113.40,Example City,CH,Windows 11,app-001,Work Portal,
+signins-run-002,2026-11-03T13:00:00Z,tenant-demo,event-009,user-002,2026-10-24T10:18:00Z,false,true,198.51.100.28,Example City,CH,Windows 11,app-002,Token Broker,

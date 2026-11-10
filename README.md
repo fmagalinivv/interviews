@@ -18,6 +18,8 @@ Scenarios:
 
 1. [R&D storage](scenarios/rnd-storage/README.md) — build a secure Azure
    foundation for high-volume laboratory data.
+2. [Office attendance](scenarios/office-attendance/README.md) — build a
+   contract-driven medallion data product from identity and sign-in evidence.
 
 ## Candidate Preparation
 
@@ -30,7 +32,7 @@ Advance preparation is study and tool setup only. Candidates must not create
 or save task-specific prompts, notes, snippets, code, tests, configuration,
 diagrams, documentation, templates, or other solution content beforehand.
 Every submitted artifact, and every task-specific prompt used to produce it,
-must be created during the 30-minute live-development window.
+must be created during the 45-minute live-development window.
 
 The submitted solution must include coding-agent-authored documentation covering
 its architecture, assumptions, setup, deployment, execution, testing, security
@@ -40,7 +42,7 @@ decisions, validation evidence, and production considerations.
 
 1. **Quick introduction — 5 minutes**
    - Introductions.
-2. **Live development — 30 minutes**
+2. **Live development — 45 minutes**
    - Candidate creates a branch from the supplied baseline.
    - Candidate may use only Codex, Claude Code, or GLM as the agentic coding harnesses. No other tool is allowed.
    - Candidate produces the complete scoped solution, runs all required checks,

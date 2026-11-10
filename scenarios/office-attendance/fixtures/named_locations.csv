@@ -1,0 +1,4 @@
+delivery_id,received_at,tenant_id,location_id,display_name,is_trusted,ip_ranges
+locations-run-001,2026-11-02T12:10:00Z,tenant-demo,location-001,Alpine Campus,true,192.0.2.0/28;203.0.113.0/28
+locations-run-001,2026-11-02T12:10:00Z,tenant-demo,location-002,Lakeside Campus,true,198.51.100.0/28
+locations-run-001,2026-11-02T12:10:00Z,tenant-demo,location-003,Shared Campus,true,192.0.2.8/29
